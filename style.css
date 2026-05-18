@@ -8,7 +8,6 @@ body {
   background-color: #eae2b7;
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
 h1,
 h2,
 h3 {
@@ -43,11 +42,19 @@ p {
   text-align: center;
 }
 
+.left-align {
+  text-align: left;
+}
+
+
 li {
   text-align: left;
 }
 
-/* The div container constrains the content width within the main container to 600px */
+ol {
+  padding-left: 125px;
+}
+
 div {
   margin: auto;
   width: 600px;
@@ -65,7 +72,9 @@ hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
+footer {
+  text-align: center;
+}
 
 .image-circle {
   border-radius: 50%;
